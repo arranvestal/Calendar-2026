@@ -1,3 +1,13 @@
  .calendar-table th { background-color: #f8f9fa; font-size: 0.85rem; }
         .calendar-table td { height: 60px; vertical-align: middle; width: 14.28%; }
         .bg-empty { background-color: #fdfdfd; }
+
+@media (max-width: 576px) {
+    .calendar-table th {
+        font-size: 0.65rem; /* Mas maliit na text para sa mobile */
+        padding: 5px 2px;   /* Bawasan ang space sa gilid */
+    }
+    .calendar-table td {
+        height: 45px;       /* Bawasan ang taas ng cells */
+        font-size: 0.8rem;
+    }
