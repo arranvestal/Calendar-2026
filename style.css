@@ -4,10 +4,10 @@
 
 @media (max-width: 576px) {
     .calendar-table th {
-        font-size: 0.65rem; /* Mas maliit na text para sa mobile */
-        padding: 5px 2px;   /* Bawasan ang space sa gilid */
+        font-size: 0.65rem; 
+        padding: 5px 2px; 
     }
     .calendar-table td {
-        height: 45px;       /* Bawasan ang taas ng cells */
+        height: 45px;      
         font-size: 0.8rem;
     }
