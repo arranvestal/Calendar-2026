@@ -1,4 +1,4 @@
- .calendar-table th { background-color: #f8f9fa; font-size: 0.85rem; }
+.calendar-table th { background-color: #f8f9fa; font-size: 0.85rem; }
         .calendar-table td { height: 60px; vertical-align: middle; width: 14.28%; }
         .bg-empty { background-color: #fdfdfd; }
 
@@ -13,7 +13,27 @@
     }
  
 .calendar-table th:first-child,
+
+.calendar-table th:first-child,
 .calendar-table td:first-child {
     color: #dc3545 !important; 
-    font-weight: bold;         
+    font-weight: bold;
+}
+
+.bg-empty {
+    background-color: #f8f9fa; 
+}
+
+.calendar-table td.bg-empty:first-child {
+    color: transparent !important;
+}
+
+.calendar-table td, .calendar-table th {
+    width: 14.28%; 
+    padding: 12px 0;
+    vertical-align: middle;
+}
+
+.calendar-table tbody tr:hover {
+    background-color: rgba(0,0,0,0.02);
 }
