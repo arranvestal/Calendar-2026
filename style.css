@@ -12,5 +12,8 @@
         font-size: 0.8rem;
     }
  
- .calendar-table th:first-child {
-            color: #dc3545;
+.calendar-table th:first-child,
+.calendar-table td:first-child {
+    color: #dc3545 !important; 
+    font-weight: bold;         
+}
